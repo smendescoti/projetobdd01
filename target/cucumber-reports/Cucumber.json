@@ -1,0 +1,548 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Acesso ao sistema com sucesso",
+        "description": "",
+        "id": "acesso-ao-sistema;acesso-ao-sistema-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 9500210200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Acessar a página de autenticação de usuários",
+            "match": {
+              "location": "AcessoAoSistemaTestSteps.acessar_a_página_de_autenticação_de_usuários()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 141223200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Informar o email de acesso \"sergio.coti@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sergio.coti@gmail.com",
+                  "offset": 28
+                }
+              ],
+              "location": "AcessoAoSistemaTestSteps.informar_o_email_de_acesso(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 86437800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Informar a senha de acesso \"@S3rg10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "@S3rg10",
+                  "offset": 28
+                }
+              ],
+              "location": "AcessoAoSistemaTestSteps.informar_a_senha_de_acesso(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 3871943900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Solicitar o acesso ao sistema",
+            "match": {
+              "location": "AcessoAoSistemaTestSteps.solicitar_o_acesso_ao_sistema()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 20504618600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Sistema autentica o usuário com sucesso",
+            "match": {
+              "location": "AcessoAoSistemaTestSteps.sistema_autentica_o_usuário_com_sucesso()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 1007345100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Aplicação é finalizada",
+            "match": {
+              "location": "AcessoAoSistemaTestSteps.aplicação_é_finalizada()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Acesso negado de usuário",
+        "description": "",
+        "id": "acesso-ao-sistema;acesso-negado-de-usuário",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 7289068800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Acessar a página de autenticação de usuários",
+            "match": {
+              "location": "AcessoAoSistemaTestSteps.acessar_a_página_de_autenticação_de_usuários()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 115323900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Informar o email de acesso \"teste@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "teste@gmail.com",
+                  "offset": 28
+                }
+              ],
+              "location": "AcessoAoSistemaTestSteps.informar_o_email_de_acesso(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 92550900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Informar a senha de acesso \"teste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "teste",
+                  "offset": 28
+                }
+              ],
+              "location": "AcessoAoSistemaTestSteps.informar_a_senha_de_acesso(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 443814700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Solicitar o acesso ao sistema",
+            "match": {
+              "location": "AcessoAoSistemaTestSteps.solicitar_o_acesso_ao_sistema()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 394905000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Sistema exibe a mensagem \"Acesso Negado\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Acesso Negado",
+                  "offset": 26
+                }
+              ],
+              "location": "AcessoAoSistemaTestSteps.sistema_exibe_a_mensagem(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 595742800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Aplicação é finalizada",
+            "match": {
+              "location": "AcessoAoSistemaTestSteps.aplicação_é_finalizada()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Validação de campos obrigatórios",
+        "description": "",
+        "id": "acesso-ao-sistema;validação-de-campos-obrigatórios",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 8721899500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Acessar a página de autenticação de usuários",
+            "match": {
+              "location": "AcessoAoSistemaTestSteps.acessar_a_página_de_autenticação_de_usuários()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 333376100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Solicitar o acesso ao sistema",
+            "match": {
+              "location": "AcessoAoSistemaTestSteps.solicitar_o_acesso_ao_sistema()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 18294329200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Sistema informa que o campo email é de preenchimento obrigatório",
+            "match": {
+              "location": "AcessoAoSistemaTestSteps.sistema_informa_que_o_campo_email_é_de_preenchimento_obrigatório()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 60104571800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Sistema informa que o campo senha é de preenchimento obrigatório",
+            "match": {
+              "location": "AcessoAoSistemaTestSteps.sistema_informa_que_o_campo_senha_é_de_preenchimento_obrigatório()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 624755300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Aplicação é finalizada",
+            "match": {
+              "location": "AcessoAoSistemaTestSteps.aplicação_é_finalizada()"
+            },
+            "keyword": "E "
+          }
+        ]
+      }
+    ],
+    "name": "Acesso ao Sistema",
+    "description": "\tComo um usuário cadastrado no sistema\n\tEu quero acessar minha conta de usuário\n\tPara que eu possa gerenciar funcionários",
+    "id": "acesso-ao-sistema",
+    "keyword": "Funcionalidade",
+    "uri": "funcionalidades/AcessoAoSistema.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 21,
+        "name": "Cadastro de conta de usuário com sucesso",
+        "description": "",
+        "id": "cadastro-de-usuário;cadastro-de-conta-de-usuário-com-sucesso;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat teststeps.CadastroDeUsuarioTestSteps.acessar_a_página_de_cadastro_de_conta_de_usuário(CadastroDeUsuarioTestSteps.java:13)\r\n\tat ✽.Acessar a página de cadastro de conta de usuário(funcionalidades/CadastroDeUsuario.feature:10)\r\n",
+              "duration": 1501100,
+              "status": "pending"
+            },
+            "line": 10,
+            "name": "Acessar a página de cadastro de conta de usuário",
+            "match": {
+              "location": "CadastroDeUsuarioTestSteps.acessar_a_página_de_cadastro_de_conta_de_usuário()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Informar o nome do usuário \"Sergio da Silva Mendes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sergio da Silva Mendes",
+                  "offset": 28
+                }
+              ],
+              "location": "CadastroDeUsuarioTestSteps.informar_o_nome_do_usuário(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Informar o email do usuário \"sergio.coti@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sergio.coti@gmail.com",
+                  "offset": 29
+                }
+              ],
+              "location": "CadastroDeUsuarioTestSteps.informar_o_email_do_usuário(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Informar a senha do usuário \"@Coti123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "@Coti123",
+                  "offset": 29
+                }
+              ],
+              "location": "CadastroDeUsuarioTestSteps.informar_a_senha_do_usuário(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Confirmar a senha do usuário \"@Coti123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "@Coti123",
+                  "offset": 30
+                }
+              ],
+              "location": "CadastroDeUsuarioTestSteps.confirmar_a_senha_do_usuário(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Informar a foto do usuário \"foto_usuario.jpg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "foto_usuario.jpg",
+                  "offset": 28
+                }
+              ],
+              "location": "CadastroDeUsuarioTestSteps.informar_a_foto_do_usuário(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Solicitar a realização do cadastro",
+            "match": {
+              "location": "CadastroDeUsuarioTestSteps.solicitar_a_realização_do_cadastro()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Sistema informa que o usuário foi cadastrado com sucesso",
+            "match": {
+              "location": "CadastroDeUsuarioTestSteps.sistema_informa_que_o_usuário_foi_cadastrado_com_sucesso()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Cadastro de conta de usuário com sucesso",
+        "description": "",
+        "id": "cadastro-de-usuário;cadastro-de-conta-de-usuário-com-sucesso;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat teststeps.CadastroDeUsuarioTestSteps.acessar_a_página_de_cadastro_de_conta_de_usuário(CadastroDeUsuarioTestSteps.java:13)\r\n\tat ✽.Acessar a página de cadastro de conta de usuário(funcionalidades/CadastroDeUsuario.feature:10)\r\n",
+              "duration": 349100,
+              "status": "pending"
+            },
+            "line": 10,
+            "name": "Acessar a página de cadastro de conta de usuário",
+            "match": {
+              "location": "CadastroDeUsuarioTestSteps.acessar_a_página_de_cadastro_de_conta_de_usuário()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Informar o nome do usuário \"Ana Paula da Silva\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ana Paula da Silva",
+                  "offset": 28
+                }
+              ],
+              "location": "CadastroDeUsuarioTestSteps.informar_o_nome_do_usuário(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Informar o email do usuário \"anapaula@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "anapaula@gmail.com",
+                  "offset": 29
+                }
+              ],
+              "location": "CadastroDeUsuarioTestSteps.informar_o_email_do_usuário(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Informar a senha do usuário \"@Teste123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "@Teste123",
+                  "offset": 29
+                }
+              ],
+              "location": "CadastroDeUsuarioTestSteps.informar_a_senha_do_usuário(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Confirmar a senha do usuário \"@Teste123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "@Teste123",
+                  "offset": 30
+                }
+              ],
+              "location": "CadastroDeUsuarioTestSteps.confirmar_a_senha_do_usuário(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Informar a foto do usuário \"foto_usuario.jpg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "foto_usuario.jpg",
+                  "offset": 28
+                }
+              ],
+              "location": "CadastroDeUsuarioTestSteps.informar_a_foto_do_usuário(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Solicitar a realização do cadastro",
+            "match": {
+              "location": "CadastroDeUsuarioTestSteps.solicitar_a_realização_do_cadastro()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Sistema informa que o usuário foi cadastrado com sucesso",
+            "match": {
+              "location": "CadastroDeUsuarioTestSteps.sistema_informa_que_o_usuário_foi_cadastrado_com_sucesso()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de Usuário",
+    "description": "\tComo um usuário da aplicação\n\tEu quero criar uma conta de acesso\n\tPara que eu possa acessar a área restrita da aplicação",
+    "id": "cadastro-de-usuário",
+    "keyword": "Funcionalidade",
+    "uri": "funcionalidades/CadastroDeUsuario.feature",
+    "tags": []
+  }
+]
