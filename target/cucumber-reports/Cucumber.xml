@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="5" time="132.166791">
-    <testcase classname="Acesso ao Sistema" name="Acesso ao sistema com sucesso" time="35.132331">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="44.180274">
+    <testcase classname="Acesso ao Sistema" name="Acesso ao sistema com sucesso" time="10.672224">
         <system-out><![CDATA[Dado Acessar a página de autenticação de usuários...........................passed
 E Informar o email de acesso "sergio.coti@gmail.com"........................passed
 E Informar a senha de acesso "@S3rg10"......................................passed
@@ -9,7 +9,7 @@ Então Sistema autentica o usuário com sucesso...............................pa
 E Aplicação é finalizada....................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Acesso ao Sistema" name="Acesso negado de usuário" time="8.938085">
+    <testcase classname="Acesso ao Sistema" name="Acesso negado de usuário" time="7.934823">
         <system-out><![CDATA[Dado Acessar a página de autenticação de usuários...........................passed
 E Informar o email de acesso "teste@gmail.com"..............................passed
 E Informar a senha de acesso "teste"........................................passed
@@ -18,7 +18,7 @@ Então Sistema exibe a mensagem "Acesso Negado"..............................pas
 E Aplicação é finalizada....................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Acesso ao Sistema" name="Validação de campos obrigatórios" time="88.082706">
+    <testcase classname="Acesso ao Sistema" name="Validação de campos obrigatórios" time="7.960969">
         <system-out><![CDATA[Dado Acessar a página de autenticação de usuários...........................passed
 Quando Solicitar o acesso ao sistema........................................passed
 Então Sistema informa que o campo email é de preenchimento obrigatório......passed
@@ -26,26 +26,26 @@ E Sistema informa que o campo senha é de preenchimento obrigatório..........pa
 E Aplicação é finalizada....................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Cadastro de Usuário" name="Cadastro de conta de usuário com sucesso" time="0.009234">
-        <skipped><![CDATA[Dado Acessar a página de cadastro de conta de usuário.......................pending
-E Informar o nome do usuário "Sergio da Silva Mendes".......................skipped
-E Informar o email do usuário "sergio.coti@gmail.com".......................skipped
-E Informar a senha do usuário "@Coti123"....................................skipped
-E Confirmar a senha do usuário "@Coti123"...................................skipped
-E Informar a foto do usuário "foto_usuario.jpg".............................skipped
-Quando Solicitar a realização do cadastro...................................skipped
-Então Sistema informa que o usuário foi cadastrado com sucesso..............skipped
-]]></skipped>
+    <testcase classname="Cadastro de Usuário" name="Cadastro de conta de usuário com sucesso" time="9.320839">
+        <system-out><![CDATA[Dado Acessar a página de cadastro de conta de usuário.......................passed
+E Informar o nome do usuário "Sergio da Silva Mendes".......................passed
+E Informar o email do usuário "sergio.coti@gmail.com".......................passed
+E Informar a senha do usuário "@Coti123"....................................passed
+E Confirmar a senha do usuário "@Coti123"...................................passed
+E Informar a foto do usuário "foto_usuario.jpg".............................passed
+Quando Solicitar a realização do cadastro...................................passed
+Então Sistema informa que o usuário foi cadastrado com sucesso..............passed
+]]></system-out>
     </testcase>
-    <testcase classname="Cadastro de Usuário" name="Cadastro de conta de usuário com sucesso 2" time="0.004435">
-        <skipped><![CDATA[Dado Acessar a página de cadastro de conta de usuário.......................pending
-E Informar o nome do usuário "Ana Paula da Silva"...........................skipped
-E Informar o email do usuário "anapaula@gmail.com"..........................skipped
-E Informar a senha do usuário "@Teste123"...................................skipped
-E Confirmar a senha do usuário "@Teste123"..................................skipped
-E Informar a foto do usuário "foto_usuario.jpg".............................skipped
-Quando Solicitar a realização do cadastro...................................skipped
-Então Sistema informa que o usuário foi cadastrado com sucesso..............skipped
-]]></skipped>
+    <testcase classname="Cadastro de Usuário" name="Cadastro de conta de usuário com sucesso 2" time="8.291419">
+        <system-out><![CDATA[Dado Acessar a página de cadastro de conta de usuário.......................passed
+E Informar o nome do usuário "Ana Paula da Silva"...........................passed
+E Informar o email do usuário "anapaula@gmail.com"..........................passed
+E Informar a senha do usuário "@Teste123"...................................passed
+E Confirmar a senha do usuário "@Teste123"..................................passed
+E Informar a foto do usuário "foto_usuario.jpg".............................passed
+Quando Solicitar a realização do cadastro...................................passed
+Então Sistema informa que o usuário foi cadastrado com sucesso..............passed
+]]></system-out>
     </testcase>
 </testsuite>

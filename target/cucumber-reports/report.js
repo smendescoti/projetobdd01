@@ -276,8 +276,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTestSteps.acessar_a_página_de_cadastro_de_conta_de_usuário()"
 });
 formatter.result({
-  "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat teststeps.CadastroDeUsuarioTestSteps.acessar_a_página_de_cadastro_de_conta_de_usuário(CadastroDeUsuarioTestSteps.java:13)\r\n\tat ✽.Acessar a página de cadastro de conta de usuário(funcionalidades/CadastroDeUsuario.feature:10)\r\n",
-  "status": "pending"
+  "status": "passed"
 });
 formatter.step({
   "name": "Informar o nome do usuário \"Sergio da Silva Mendes\"",
@@ -287,7 +286,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTestSteps.informar_o_nome_do_usuário(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Informar o email do usuário \"sergio.coti@gmail.com\"",
@@ -297,7 +296,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTestSteps.informar_o_email_do_usuário(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Informar a senha do usuário \"@Coti123\"",
@@ -307,7 +306,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTestSteps.informar_a_senha_do_usuário(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Confirmar a senha do usuário \"@Coti123\"",
@@ -317,7 +316,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTestSteps.confirmar_a_senha_do_usuário(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Informar a foto do usuário \"foto_usuario.jpg\"",
@@ -327,7 +326,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTestSteps.informar_a_foto_do_usuário(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Solicitar a realização do cadastro",
@@ -337,7 +336,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTestSteps.solicitar_a_realização_do_cadastro()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Sistema informa que o usuário foi cadastrado com sucesso",
@@ -347,7 +346,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTestSteps.sistema_informa_que_o_usuário_foi_cadastrado_com_sucesso()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Cadastro de conta de usuário com sucesso",
@@ -362,8 +361,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTestSteps.acessar_a_página_de_cadastro_de_conta_de_usuário()"
 });
 formatter.result({
-  "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat teststeps.CadastroDeUsuarioTestSteps.acessar_a_página_de_cadastro_de_conta_de_usuário(CadastroDeUsuarioTestSteps.java:13)\r\n\tat ✽.Acessar a página de cadastro de conta de usuário(funcionalidades/CadastroDeUsuario.feature:10)\r\n",
-  "status": "pending"
+  "status": "passed"
 });
 formatter.step({
   "name": "Informar o nome do usuário \"Ana Paula da Silva\"",
@@ -373,7 +371,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTestSteps.informar_o_nome_do_usuário(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Informar o email do usuário \"anapaula@gmail.com\"",
@@ -383,7 +381,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTestSteps.informar_o_email_do_usuário(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Informar a senha do usuário \"@Teste123\"",
@@ -393,7 +391,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTestSteps.informar_a_senha_do_usuário(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Confirmar a senha do usuário \"@Teste123\"",
@@ -403,7 +401,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTestSteps.confirmar_a_senha_do_usuário(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Informar a foto do usuário \"foto_usuario.jpg\"",
@@ -413,7 +411,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTestSteps.informar_a_foto_do_usuário(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Solicitar a realização do cadastro",
@@ -423,7 +421,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTestSteps.solicitar_a_realização_do_cadastro()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Sistema informa que o usuário foi cadastrado com sucesso",
@@ -433,6 +431,6 @@ formatter.match({
   "location": "CadastroDeUsuarioTestSteps.sistema_informa_que_o_usuário_foi_cadastrado_com_sucesso()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 });
